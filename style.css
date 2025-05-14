@@ -1,0 +1,12 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  footer {
+    background-color: #ddd;
+  }
+
+  .carousel-inner img {
+    height: 300px; /* Ajuste o valor conforme a altura desejada */
+    object-fit: cover; /* Garante que a imagem se ajuste sem deformar */
+  }
