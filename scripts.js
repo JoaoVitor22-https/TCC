@@ -39,3 +39,4 @@ document.getElementById("taskForm").addEventListener("submit", function (e) {
     // Limpa o formulário
     e.target.reset();
   });
+  
