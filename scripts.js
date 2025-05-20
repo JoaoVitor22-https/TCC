@@ -1,7 +1,7 @@
 document.getElementById("taskForm").addEventListener("submit", function (e) {
     e.preventDefault();
   
-    // Captura os dados do formulário
+    
     const titulo = document.getElementById("titulo").value;
     const data = document.getElementById("data").value;
     const categoria = document.getElementById("categoria").value;
@@ -9,7 +9,7 @@ document.getElementById("taskForm").addEventListener("submit", function (e) {
     const lembrete = document.getElementById("lembrete").value;
     const recorrente = document.getElementById("recorrente").checked;
   
-    // Cria o container da tarefa
+    
     const tarefa = document.createElement("div");
     tarefa.className = "card mb-3";
     tarefa.innerHTML = `
@@ -25,18 +25,18 @@ document.getElementById("taskForm").addEventListener("submit", function (e) {
       </div>
     `;
   
-    // Adiciona a tarefa na lista
+  
     document.getElementById("listaTarefas").appendChild(tarefa);
   
-    // Adiciona funcionalidade de excluir
+    
     tarefa.querySelector(".excluir").addEventListener("click", () => tarefa.remove());
   
-    // Placeholder para edição
+   
     tarefa.querySelector(".editar").addEventListener("click", () => {
       alert("Função de edição em desenvolvimento");
     });
   
-    // Limpa o formulário
+    
     e.target.reset();
   });
   

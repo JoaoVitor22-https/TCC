@@ -1,4 +1,4 @@
-/* Estilo base */
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f2f2eb;
@@ -6,9 +6,8 @@ body {
   padding: 0;
 }
 
-/* Cor personalizada para a navbar */
 .navbar {
-  background-color: #8f9fbf!important; /* Exemplo de cor verde */
+  background-color: #8f9fbf!important; 
 }
 
 .navbar-brand img {
@@ -22,12 +21,12 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #f0f0f0 !important;  /* Efeito ao passar o mouse */
+  color: #000000 !important;  
 }
   
 
 
-/* Footer */
+
 footer {
   background-color: #f2f2eb;
   padding: 1rem;
@@ -36,7 +35,7 @@ footer {
   color: #000000;
 }
 
-/* Carrossel responsivo */
+
 .carousel-inner img {
   height: 500px;
   object-fit: cover;
@@ -45,7 +44,7 @@ footer {
   border-radius: 10px;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   .carousel-inner img {
     height: 200px;
@@ -72,3 +71,10 @@ footer {
     padding: 0.8rem;
   }
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 50%; 
+}
+
